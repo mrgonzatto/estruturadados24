@@ -60,3 +60,5 @@ tree.Root.Children = new List<Node<Person>>(){
 };
 
 
+tree.PrintTree(tree.Root);
+

@@ -7,7 +7,7 @@ namespace ArvoresBasicas
         public void PrintTree(Node<T> node)
         {            
             Console.WriteLine($"Level: {node.GetHeight()}");
-            Console.WriteLine($"Node: {node.Data}");
+            Console.WriteLine($"Node: {node.Data!.ToString()}");
             Console.WriteLine();
             
             if(node.Children!.Count() > 0)            
